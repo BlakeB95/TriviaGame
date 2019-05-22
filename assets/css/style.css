@@ -7,10 +7,16 @@
     background: lightgoldenrodyellow;
     width: 100%;
     height: 600px;
+    border-width:  5px;
+    border-style: double;
+    border-color: gray;
 }
 
 .jumbotron {
     padding: 20px;
+    border-width:  5px;
+    border-style: double;
+    border-color: gray;
 }
 
 #start {
@@ -32,3 +38,8 @@
 #countdown {
     padding-top: 20px;
 }
+
+body {
+    background-image: url("../images/bg.jpg");
+    background-color: #cccccc;
+   }
